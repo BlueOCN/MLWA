@@ -1,0 +1,16 @@
+npm init -y                                 // Crea package.json
+npm install cors dotenv                     // Descarga cors dotenv
+npm install -D typescript ts-node           // Descarga typescript
+npm install -D @types/express @types/cors   // Descarga tipos
+npm install --location=global typescript    // installa en todos los archivos
+tsc --init
+npx tsc --init                              // Crea tsconfig.json
+npm install express                         // Instalar express
+npm install -D @types/express               // Instalar tipos asociados a express
+npm install sequelize                       // Instalar sequelize
+npm install mysql2                          // Instalar MYSQL
+npm run build                               // Transpilar
+
+CORRER UN PROGRAMA  
+npm run build                               // Transpilar
+npm start                                   // Correr
